@@ -1,0 +1,77 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.full-web{
+    height: 1024px;
+    width: 80%;
+    background-color: lawngreen;
+    margin:0 auto;
+}
+
+.header-menu{
+    text-align: center;
+    padding-top: 20px;
+}
+
+ .header-menu li{
+    display: inline-block;
+    margin-left: -5px;
+ }
+ .header-menu li a{
+     background-color: #222430;
+     padding: 20px;
+     color: white;
+     border: 1px solid #f26724;
+     text-decoration: none;
+     display: inline-block;
+ }
+
+ .header-menu li a:hover{
+     color: #f26724;
+     transition: .5s;
+     cursor: pointer;
+ }
+  
+.banner{
+    text-align: center;
+    margin-top: 10px;
+    padding: 200px 300px;
+    background-position: left;
+    background: url(https://1.bp.blogspot.com/-W1zh2TiQ4GQ/X4mygfPx9sI/AAAAAAAAAIk/piVYi91HdSU6FPae9Ft6oN7HvY6a0d98QCLcBGAsYHQ/s1134/maxresdefault.jpg) center no-repeat;
+     
+}
+
+.banner p{
+    display: inline-block;
+    padding: 20px;
+    background: #f26724;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+
+.banner p:hover{
+    color: rgb(27, 25, 25);
+    transform: .5s0;
+    cursor: pointer;
+
+}
+
+.content p{
+    text-align: center;
+    color: white;
+    font-family:'Roboto', sans-serif;
+    margin-top: 20px;
+}
+
+.fotter p{
+    margin-top: 60px;
+    padding: 60px;
+    background-color: #362831;
+    text-align: center;
+    color: white;
+font-size: 30px;
+}
